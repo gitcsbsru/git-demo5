@@ -12,5 +12,5 @@ do
   echo "Push source code"
   git push -u origin master
   echo "Remove remote from github origin"
-  git remote rm https://github.com/gitcsbsru/git-demo$i.git
+  git remote rm origin
 done
